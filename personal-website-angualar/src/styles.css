@@ -1,0 +1,15 @@
+:root {
+    --color_teal: 75,209,160;
+    --color_dark: 23,23,23;
+    --color_light: #FFFFFF;
+    --font_0: normal normal normal 22px/1.41em oswald-medium, oswald, sans-serif;
+    --font_1:normal normal normal 14px/1.79em rubik, sans-serif;
+}
+
+
+div, p, header, body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    outline: 0px;
+}
