@@ -1,0 +1,54 @@
+.HeaderBox{
+    background-color: rgb(var(--color_dark)); 
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+}
+
+.Header1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font: var(--font_2);
+    color: rgb(var(--color_light));
+    font-weight: 600;
+}
+
+
+.maxWidth{
+    max-height: 550px;
+    max-width: 456px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: rgb(var(--color_teal));
+}
+
+button {
+    background-color: rgb(var(--color_dark));
+    border: solid rgb(var(--color_yellow));
+    border-radius: 15px;
+    box-shadow: (0 1px 4px rgba(0, 0, 0, .6));
+    height: 40px;
+}
+
+a{
+    color:rgb(var(--color_light));
+    margin: 20px;
+}
+
+.grid{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.iconDiv{
+    position: relative;
+    padding-left: 30px;
+    /* width: 100%; */
+}

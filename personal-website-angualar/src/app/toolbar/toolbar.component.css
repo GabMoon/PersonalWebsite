@@ -7,10 +7,15 @@ p {
 }
 a {
     text-decoration: none;
-    color: var(--color_light);
-    padding-left: 10px;
-    padding-right: 10px;
-    
+    color: rgb(var(--color_light)); 
+}
+
+nav a:hover{
+    color: rgb(var(--color_tealDark));
+}
+
+.active{
+    color: rgb(var(--color_teal));
 }
 
 .siteHeader {
@@ -22,6 +27,11 @@ a {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 100%;
+}
+
+.paddedNav{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .logoBox {
@@ -42,7 +52,7 @@ a {
 .siteHeaderSection {
     min-width: 980px;
     margin: 5px 0px 20px calc((100% - 121px) * 0);
-    margin-left:  20px;
+    /* margin-left:  20px; */
     width: calc(100% - 60px - 60px)!;
     /* enabled row not column! vv */
     justify-self: start;
@@ -59,7 +69,6 @@ a {
     font:var(--font_0);
     color: rgb(var(--color_teal));
     font-weight: 600;
-    font-size: 22px;
     line-height: 1.41;
     text-shadow: rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px,
     rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px;

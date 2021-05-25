@@ -1,9 +1,24 @@
 :root {
     --color_teal: 75,209,160;
+    --color_tealDark: 28,78,70;
+    --color_tealLight: 181,228,221;
+    --color_blue: 0,67,237;
+    --color_blueDark: 0,45,158;
+    --color_blueLight: 122,156,243;
+    --color_yellowDark: 85,65,0;
+    --color_yellow: 255,196,0;
+    --color_yellowMed: 255,226,128;
+    --color_yellowLight: 255,235,170;
     --color_dark: 23,23,23;
-    --color_light: #FFFFFF;
+    --color_grey: 209,209,209;
+    --color_greyDark: 69,69,69;
+    --color_light: 260,260,260;
     --font_0: normal normal normal 22px/1.41em oswald-medium, oswald, sans-serif;
     --font_1:normal normal normal 14px/1.79em rubik, sans-serif;
+    --font_2: normal normal normal 77px/1.41em oswald-medium, oswald, sans-serif;
+    --font_p: normal normal normal 18px/1.75em Montserrat,sans-serif;
+    --font_b: normal normal normal 12px/1.75em Montserrat,sans-serif;
+    
 }
 
 
@@ -12,4 +27,18 @@ div, p, header, body, nav{
     margin: 0px;
     border: 0px;
     outline: 0px;
+}
+
+p{
+    font: var(--font_p);
+    font-weight: 200;
+}
+
+button {
+    font: var(--font_b);
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
 }
